@@ -55,7 +55,7 @@ h2{
 }
 .header{
     position: absolute;
-    top: 0px;
+    top: 16px;
     left: 50px;
     width:200px;
     height:200px;
@@ -88,7 +88,6 @@ body{
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     word-wrap: break-word;
-    height:365px;
     background: #ffffff;
 
 }
@@ -101,7 +100,7 @@ body{
 }
 
 /* Things that effect contact.html */
-.submit{
+/* .submit{
     background: #4aaaa5;
     color: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -109,14 +108,14 @@ body{
     width: 100px;
     text-align: center;
     font-size: 17px;
-}
+} */
 .contactInfo{
     margin: 60px auto 0 auto;
     padding: 20px;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     word-wrap: break-word;
-    height:365px;
+    height:400px;
     background: #ffffff;
 }
 .nameEmail{
@@ -126,6 +125,7 @@ body{
 .message{
     width: 900px;
     height:150px;
+    margin-bottom: 8px;
 }
 
 

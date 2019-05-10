@@ -4,10 +4,17 @@
     Contact me
 </title>
 <head>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <div class = "parentDiv">
         <div class = "childDiv1"><p>Jamie Barton</p></div>
-        <div class = "childDiv2"><p>About | Portfolio | Contact</p></div>
+        <div class = "childDiv2">
+                <div class="btn-group" role = "group" aria-label="basic example">
+                        <a href="./index.html"><button class=" btn btn-success">About</button></a>
+                        <a href="./portfolio.html"><button type="button" class=" btn btn-danger">Portfolio</button></a>
+                        <a href="./contact.html"><button type="button" class=" btn btn-warning">Contact</button></a>
+                    </div>
+        </div>
     </div>
 </head>
     <body>
@@ -21,17 +28,24 @@
         <div class = "underline"></div>
     
         <div class="contactInfo">
-        <form>
-            Name<br>
-            <input class="nameEmail" type ="text" name="firstname"><br>
-            Email<br>
-            <input class="nameEmail" type ="text" name="email"><br>
-            Message<br>
-            <input class="message" type ="text" name="message"><br>
+            <form>
+                    <div class="form-group">
+                    <label for="exampleFormControlInput1">Name</label>
+                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Jamie Barton (You wish)">
+                </div>
 
-        </form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput2">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </form>
+
         <div class = "submit">
-            <p>Submit</p>
+            <button type="button" class="btn btn-info">Submit</button>
         </div>
         </div>  
         
