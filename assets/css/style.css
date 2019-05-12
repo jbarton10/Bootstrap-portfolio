@@ -1,29 +1,27 @@
 /* Things that effect every page */
 .parentDiv{
     background: #ffffff;
-    height: 100px;
+    height: 150px;
     margin: 0 auto;
     position: relative;
     border-bottom: solid 1px #cccccc;
 }
 .childDiv1{
     height:70px;
-    width: 160px;
+
     color: white;   
     text-align: center;
-    position: absolute;
-    left: 230px;
-    bottom: 0px;
-    margin-top:30px;
+    margin-top:40px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 40px;
+    margin: 0px auto;
 }
 .childDiv2{
-    right: 230px;
+    
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    position: absolute;
-    bottom: 20px
+    text-align: center;
+    margin: 0px auto;
 }
 
 .extraSpace{
